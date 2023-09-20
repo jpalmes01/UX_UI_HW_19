@@ -1,0 +1,194 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Glacial Indifference', sans-serif;
+}
+
+.inline-block .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header {
+    width: 73%;
+    padding: 1%;
+}
+.topnav {
+    display: flex;
+    gap: 48px;
+    position: absolute;
+    right: 70px;
+    top: 50px;
+}
+
+h1 {
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 112px;
+    line-height: 110px;
+    font-weight: bold;
+    margin-left: 100px;
+    padding-top: 40px;
+    margin-top: 0%;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 48px;
+    line-height: 80px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-right: 600px;
+    margin-bottom: 100px;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+
+
+.bounceMe-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    margin-bottom: 100px;
+}
+
+
+  
+  .bounceMe {
+    margin-top: 150px;
+    width: 100px;
+    height: 40px;
+        -webkit-animation: fade_move_down 2s ease-in-out infinite;
+        -moz-animation:    fade_move_down 2s ease-in-out infinite;
+        animation:         fade_move_down 2s ease-in-out infinite;
+    }
+    
+    @-webkit-keyframes fade_move_down {
+        0%   { -webkit-transform: translate(0, -20px); opacity: 0; }
+        50%  { opacity: 1; }
+        100% { -webkit-transform: translate(0, 20px); opacity: 0; }
+    }
+    
+    @-moz-keyframes fade_move_down {
+        0%   { -moz-transform: translate(0, -20px); opacity: 0; }
+        50%  { opacity: 1; }
+        100% { -moz-transform: translate(0, 20px); opacity: 0; }
+    }
+    
+    @keyframes fade_move_down {
+        0%   { transform: translate(0, -20px); opacity: 0; }
+        50%  { opacity: 1; }
+        100% { transform: translate(0, 20px); opacity: 0; }
+    }  
+.plantGif{
+        position: absolute;
+        width: 470px;
+        height: 500px;
+        right: 0;
+        bottom: 0;
+        margin-right: 100px;
+        margin-bottom: -20px; 
+    }
+    
+@font-face {
+    font-family: 'Glacial Indifference', sans-serif;
+    src: url(/Resources/GlacialIndifference-Regular.woff);
+}
+.frames {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 600px); 
+    gap: 50px; 
+    padding: 20px; 
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.frame1 {
+    height: 500px;
+    width: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.frame2 {
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.frame3 {
+    height: 400px;
+    background-color: blueviolet;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.frame4 {
+    height: 400px;
+    background-color: crimson;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: #DAE3EB;
+    align-items: center;
+}
+
+.footer-navigation {
+    font-family: 'Glacial Indifference', sans-serif;
+    src: url(/Resources/GlacialIndifference-Regular.woff);
+    padding: 2em;
+    height: 50px;
+}
+
+.footer-list {
+    list-style-type: none;
+    display: flex;
+    gap: 48px;
+    justify-content: left;
+    left:80px;
+}
+.footer-item {
+    color: #6F957C;
+    font-weight: bold;
+    text-decoration: underline;
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.copyright {
+    font-family: 'Glacial Indifference', sans-serif;
+    src: url(/Resources/GlacialIndifference-Regular.woff);
+}
+h3 {
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    text-decoration: underline;
+    padding-right: 70px;
+}
+#rectangle {
+    margin-top: 100px;
+    width: 100%;
+    height: 12.205px;
+    background: linear-gradient(180deg, #C0D2E1 -64.06%, #C0D2E1 -34.9%, rgba(192, 210, 225, 0.00) 27.08%, rgba(192, 210, 225, 0.00) 32.55%, #C0D2E1 77.21%);
+}
+
