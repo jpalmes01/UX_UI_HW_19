@@ -163,9 +163,13 @@ h3 {
 button{
     width: 170px;
     height: 60px;
-    background-color: #F2A4A2;
-    border-color: #F2A4A2;
+    background-color: #DE7875;
+    border-color: #DE7875;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: #F6CBC2;
+    font-weight:bold;
+    font-style: bold;
+    border-radius: 10px;
 }
 
 .grid-item2 {
@@ -207,13 +211,7 @@ button{
     .work-text2 {
         margin-bottom: -30px;
     }
-button{
-    width: 170px;
-    height: 60px;
-    background-color: #F2A4A2;
-    border-color: #F2A4A2;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-}
+
 
 .grid-item3 {
     display: grid;
@@ -255,13 +253,8 @@ button{
     .work-text3 {
         margin-bottom: -30px;
     }
-button{
-    width: 170px;
-    height: 60px;
-    background-color: #F2A4A2;
-    border-color: #F2A4A2;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-}
+
+
 .grid-item4 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -302,13 +295,8 @@ button{
     .work-text4 {
         margin-bottom: -30px;
     }
-button{
-    width: 170px;
-    height: 60px;
-    background-color: #F2A4A2;
-    border-color: #F2A4A2;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-}
+
+
 
 
 
