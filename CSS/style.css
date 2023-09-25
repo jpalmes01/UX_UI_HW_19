@@ -6,6 +6,10 @@
     font-family: 'Glacial Indifference', sans-serif;
     cursor: pointer;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 
 .inline-block .logo {
     position: absolute;
