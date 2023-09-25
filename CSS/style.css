@@ -25,12 +25,12 @@
 }
 
 @font-face {
-    font-family: 'Caslon';
-    src: url(/Resources/ACaslonPro-Regular.woff2);
+    font-family: 'Lusitana', sans-serif;
+    src: url(/Resources/Lusitana-Regular.ttf);
   }
   
 h1 {
-    font-family: 'Caslon', sans-serif;
+    font-family: 'Lusitana', sans-serif;
     font-size: 44px;
     line-height: 60px;
     font-weight: bold;
