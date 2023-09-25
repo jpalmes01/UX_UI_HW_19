@@ -1,5 +1,3 @@
-console.log('Your JS is working!')
-
 
 const buttons = document.querySelectorAll('button');
 
@@ -22,3 +20,5 @@ buttons.forEach(function(button) {
     button.style.height = '60px';
   });
 });
+
+

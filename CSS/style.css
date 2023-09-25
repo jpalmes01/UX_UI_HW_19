@@ -1,3 +1,5 @@
+
+
 .inline-block {
     display: inline-block;
     vertical-align: top;
@@ -35,7 +37,7 @@ h1 {
     margin-left: 200px;
     padding-top: 40px;
     margin-top: 0%;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 h2 {
@@ -55,6 +57,13 @@ h3 {
     color: #22181c;
 }
 
+.hero-button{
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: -150px;
+}
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr; 
@@ -103,74 +112,98 @@ h3 {
 .plantGif{
         display: flex;
         justify-content: right;
-        animation-delay: 10s;
-        animation-iteration-count: 1;
-        width: 350px;
-        height: 300px;
+        animation-delay: 15s;
+        width: 400px;
+        height: 400px;
         right: 0;
         bottom: 0;
-        margin-right: 200px;
+        margin-right: 100px;
         margin-bottom: 10px; 
         position: absolute;
         top: 0;
-        right: 0;
-        margin-top: 30px;
+       
     }
     
 @font-face {
     font-family: 'Glacial Indifference', sans-serif;
     src: url(/Resources/GlacialIndifference-Regular.woff);
 }
-.grid-item1 {
-    display: grid;
-    height: 380px;
-    grid-template-columns: 1fr 1fr;
-    background-color: #F6CBC2;
-    width: calc(100% - 140px);
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-bottom: 100px;
-  }
-  .left-column {
-    grid-column: 1 / 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .right-column {
-    grid-column: 2 / 3;
-    display: grid;
-    grid-template-rows: auto auto auto;
-    grid-gap: 10px;
-  }
-  
-  .right-column h1 {
-    margin: 0;
-  }
-  
-  .right-column h3 {
-    margin: 0;
-}
-    .work-heading{
-        margin-top: 20px;
-        margin-bottom: -50px;
-        
-    }
-    .work-text{
-        margin-bottom: -30px;
-    }
+
+
 button{
     width: 170px;
     height: 60px;
     background-color: #DE7875;
     border-color: #DE7875;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    color: #F6CBC2;
+    color: #FFFFFF;
     font-weight:bold;
     font-style: bold;
     border-radius: 10px;
 }
+/* scroll work */
+.grid-item1 {
+display: grid;
+height: 380px;
+grid-template-columns: 1fr 1fr;
+background-color: #F6CBC2;
+width: calc(100% - 140px);
+margin-left: 70px;
+margin-right: 70px;
+margin-bottom: 100px;
+}
+.left-column {
+grid-column: 1 / 2;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.right-column {
+grid-column: 2 / 3;
+display: grid;
+grid-template-rows: auto auto auto;
+grid-gap: 10px;
+}
+
+.right-column h1 {
+margin: 0;
+}
+
+.right-column h3 {
+margin: 0;
+}
+.work-heading{
+    margin-top: 20px;
+    margin-bottom: -50px;
+    
+}
+.work-text{
+    margin-bottom: -30px;
+}
+
+
+ 
+/* scroll work end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .grid-item2 {
     display: grid;
@@ -362,6 +395,14 @@ h4 {
     height: 12.205px;
     background: linear-gradient(180deg, #C0D2E1 -64.06%, #C0D2E1 -34.9%, rgba(192, 210, 225, 0.00) 27.08%, rgba(192, 210, 225, 0.00) 32.55%, #C0D2E1 77.21%);
 }
+
+.split-slideshow .slider {
+    height: 240px;
+    width: 100%;
+  }
+
+  
+
 
 @media only screen and (max-width: 600px) {
     .container {
