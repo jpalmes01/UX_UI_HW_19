@@ -41,6 +41,13 @@ a {
   transition: all 0.1s ease-in;
   margin-bottom: 10px;
 }
+#resume-link:hover {
+  color: #DE7875;
+}
+
+#contact-link:hover {
+  color: #DE7875;
+}
 .special-style > a {
   color:#DE7875 !important;
   font-style: bold !important;
