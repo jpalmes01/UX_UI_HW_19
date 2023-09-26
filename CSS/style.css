@@ -5,16 +5,19 @@
     vertical-align: top;
     font-family: 'Glacial Indifference', sans-serif;
     cursor: pointer;
+    
 }
 a {
   text-decoration: none;
   color: #22181c;
+  
 }
 
 .inline-block .logo {
     position: absolute;
     top: 0;
     left: 0;
+   
 }
 
 .topnav {
@@ -23,11 +26,72 @@ a {
     position: absolute;
     right: 70px;
     top: 50px;
+    list-style-type: none;
 }
 .container{
     margin-bottom: -50px;
 }
+/* hover code */
+.inline-block ul li a {
+  display: inline-block;
+  color: #000000;
+  text-decoration: none;
+  -webkit-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+  margin-bottom: 10px;
+}
+.special-style > a {
+  color:#DE7875 !important;
+  font-style: bold !important;
+}
+.inline-block ul li > ul,
+.special-style ul li > ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  z-index: 1;
+  list-style: none;
+}
 
+.special-style ul {
+  text-align: left;
+  margin-left: 0px;
+  padding-left: 0px;
+  font-style: bold;
+  list-style-type: none;
+}
+
+.inline-block ul li > ul li {
+  float: none;
+  margin: 0;
+ 
+}
+
+.inline-block ul li > ul li a {
+  display: block;
+ 
+}
+
+.inline-block ul li > ul li a:hover,
+.inline-block ul li:hover a,
+.nav ul li.active a {
+  background: white;
+  
+}
+
+.inline-block ul li.active {
+  pointer-events: none;
+  
+}
+ul li a {
+  color: black;
+}
+
+ul li a:hover {
+  color: #DE7875;
+  font-style: bold;
+}
 @font-face {
     font-family: 'Lusitana', sans-serif;
     src: url(/Resources/Lusitana-Regular.ttf);
@@ -288,7 +352,8 @@ margin: 0;
     
       .left-column4 {
         grid-column: 1 / 2;
-        display: flex;
+        display: grid;
+        grid-template-rows: auto auto;
         justify-content: center;
         align-items: center;
       }
@@ -297,44 +362,50 @@ margin: 0;
         grid-column: 2 / 3;
         display: grid;
         grid-template-rows: auto auto auto;
-        grid-gap: 10px;
       }
       
-      .right-column4 h1 {
-        margin-left: 0px;
-        border-top: 10px;
-        padding-top: 10px;
-        margin-top: 10px;
-
-
+      .left-column4 h1 {
+      margin-left: 30px;
+      margin-top: -30px;
+      margin-bottom: 20px;
       }
       
       .right-column4 h3 {
-        margin-bottom: 10px;
-        margin-top: 30px;
+    margin-bottom: 10px;
+    margin-top: 0px;
     }
-       
-
+.form-row0 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: -20px;    
+    }
 
 .form-row1 {
     display: flex;
     flex-direction: column;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: -20px;
     padding-bottom: 0px;
 }
 .form-row2 {
     display: flex;
     flex-direction: column;
-    margin-top: -50px;
-    margin-bottom: -10px;
     border-bottom: 0;
+    margin-bottom: -20px;
+    padding-bottom: 0px;
 }
 
 .form-input {
     display: block;
+   
 }
 
+#contact-form-name{
+  width: 75%;
+  height: 20px;
+  margin-right: 140px;
+  font-family: 'Glacial Indifference', sans-serif;
+}
 #contact-form-email{
     width: 75%;
     height: 20px;
